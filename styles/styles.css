@@ -1,0 +1,102 @@
+/* ## Colors
+
+### Primary */
+/* ### Accent */
+/* ### Neutral */
+/* ## Colors
+
+### Primary */
+/* ### Accent */
+/* ### Neutral */
+.page1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: 'left right';
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 6rem;
+}
+
+.page1__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-area: 'left';
+  font-family: "Open Sans", sans-serif;
+}
+
+.page1__left .page1__left--maintext {
+  font-size: 3rem;
+  color: #070439;
+  padding-bottom: 5vh;
+}
+
+.page1__left .page1__left--secondtext {
+  padding-bottom: 5vh;
+  color: #585989;
+  font-size: 2vh;
+}
+
+.page1__right {
+  grid-area: 'right';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page1__right img {
+  width: 80%;
+}
+
+/* ### Headings, Call-to-actions, Header Navigation
+
+- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
+- Weights: 400, 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+/* - Weights: 400 */
+* {
+  margin: 0px;
+  padding: 0;
+  font-size: 11px;
+  color: #3e52a3;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 6rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  font-size: 3rem;
+}
+
+.nav .nav__button {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 2rem;
+  padding-left: 6rem;
+  font-family: "Raleway", sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */

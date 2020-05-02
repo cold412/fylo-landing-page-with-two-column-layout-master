@@ -1,0 +1,44 @@
+@import "variables";
+
+
+.page1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'left right';
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 6rem;
+}
+
+
+
+.page1__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: 'left';
+    font-family: $OpenFont;
+
+    .page1__left--maintext{
+        font-size: 3rem;
+        color: $VeryDarkBlue;
+        padding-bottom: 5vh;
+
+    }
+    .page1__left--secondtext{
+        padding-bottom: 5vh;
+        color: $DesaturatedBlue;
+        font-size: 2vh;
+    }
+
+}
+
+.page1__right {
+    grid-area: 'right';
+    display: flex;
+    justify-content: center;
+    img {
+        width: 80%;
+    }
+}
+

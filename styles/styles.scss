@@ -1,0 +1,41 @@
+@import "variables";
+@import 'page1';
+
+
+/* ### Headings, Call-to-actions, Header Navigation
+
+- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
+- Weights: 400, 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+/* - Weights: 400 */
+
+
+* {
+    margin: 0px;
+    padding: 0;
+    font-size: 11px;
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    font-size: 3rem;
+    
+    .nav__button {
+        list-style-type: none;
+        display: inline-block;
+    font-size: 2rem;
+    padding-left: 6rem;
+    font-family: $RallewayFont;
+    }
+}
