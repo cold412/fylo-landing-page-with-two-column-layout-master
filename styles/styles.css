@@ -3,11 +3,16 @@
 ### Primary */
 /* ### Accent */
 /* ### Neutral */
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 /* ## Colors
 
 ### Primary */
 /* ### Accent */
 /* ### Neutral */
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 .page1 {
   display: -ms-grid;
   display: grid;
@@ -302,7 +307,57 @@
 /* ### Neutral */
 .footerBottom {
   background-color: #070439;
-  height: 42vh;
+}
+
+.footerBottomTop img {
+  padding-top: 10vh;
+  padding-left: 8vw;
+}
+
+.footerBottomBot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 5vh;
+  padding-bottom: 11vh;
+  padding-left: 8vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60vw;
+}
+
+.footerBottomBot img {
+  width: 1vw;
+  padding-top: 1vw;
+}
+
+.footerBottomBot h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 1rem;
+}
+
+.footerBottomBot a {
+  color: white;
+}
+
+.iconsB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.iconsB img {
+  padding-right: 1vw;
 }
 
 /* ### Headings, Call-to-actions, Header Navigation

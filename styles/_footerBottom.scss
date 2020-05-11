@@ -4,8 +4,45 @@
 
 .footerBottom{
     background-color: $VeryDarkBlue;
-    height: 42vh;
 }
 
 
+.footerBottomTop{
+    img{
+        padding-top: 10vh;
+        padding-left: 8vw;
+    }
+}
+
+
+.footerBottomBot{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vh;
+    padding-bottom: 11vh;
+    padding-left: 8vw;
+    justify-content: space-between;
+    width: 60vw;
+    img{
+        width: 1vw;
+        padding-top: 1vw;
+    }
+    h3{
+        color: white;
+        font-size: 1.5rem;
+        font-family: $OpenFont;
+        padding-top: 1rem;
+    }
+    a{
+        color: white;
+    }
+}
+
+.iconsB{
+    display: flex;
+    align-items: center;
+    img{
+        padding-right: 1vw;
+    }
+}
 
