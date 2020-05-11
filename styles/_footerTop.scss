@@ -1,0 +1,48 @@
+@import 'variables';
+
+
+
+.footerTop{
+    display: flex;
+    background-color: $DesaturatedBlue;
+    height: 35vh;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+
+        @include h1Style;
+        color: white;
+        padding-bottom: 2vh;
+    }
+    p{
+        @include pStyle;
+        color: white;
+    }
+}
+
+.footerTopLeft{
+    width: 50vh;
+    padding-left: 8vh;
+}
+
+
+.footerTopRight{
+    padding-right: 8vh;
+    width: 35vw;
+}
+
+.footer__user--input{
+    padding-bottom: 2vh;
+    input{
+        width: 20vw;
+        height: 4vh;
+        border-radius: 0.5rem;
+        border: 1px solid $LightGray;
+    }
+}
+
+.footerbutton{
+    @include btn;
+    height: 4vh;
+}

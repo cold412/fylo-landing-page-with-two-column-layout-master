@@ -1,0 +1,89 @@
+@import "variables";
+
+
+.page2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'left2 right2';
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 6rem;
+    background-color: $LightGrayishBlue;
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+
+
+.page2__left{
+    grid-area: left2;
+
+}
+
+.page2__right{
+    grid-area: right2;
+    display: flex;
+    justify-content: center;
+    img {
+        width: 80%;
+    }
+}
+
+.page2__left__top{
+    padding-bottom: 3vh;
+    h1{
+        @include h1Style
+    }
+    p{
+        @include pStyle;
+        padding-bottom: 1.5rem;
+    }
+    a{
+        font-family: $OpenFont;
+        color: $ModerateCyan;
+        font-size: 2rem;
+    }
+    img{
+        height: 2vh;
+    }
+}
+
+
+
+
+.page2__left__bottom{
+    background-color: white;
+    padding: 5rem;
+    width: 15vw;
+    min-height: 13vh;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 38px -21px rgba(0,0,0,0.75);
+    p{
+        @include pStyle;
+        font-size: 1.5rem;
+    }
+    img{
+        border-radius: 50%;
+        height: 4vh;
+    }
+    h3{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: $VeryDarkBlue;
+        padding-left: 0.5vw;
+    }
+}
+
+
+.page__left__bottom__image{
+    display: flex;
+    align-items: center;
+    padding-top: 2vh;
+    p{
+        font-size: 1rem;
+        color: $VeryDarkBlue;
+        padding-left: 0.5vw;
+    }
+}

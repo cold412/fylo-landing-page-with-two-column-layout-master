@@ -8,6 +8,7 @@
     padding-left: 8rem;
     padding-right: 8rem;
     padding-top: 6rem;
+    padding-bottom: 20vh;
 }
 
 
@@ -20,15 +21,13 @@
     font-family: $OpenFont;
 
     .page1__left--maintext{
-        font-size: 3rem;
-        color: $VeryDarkBlue;
-        padding-bottom: 5vh;
-
+        @include h1Style
     }
     .page1__left--secondtext{
         padding-bottom: 5vh;
         color: $DesaturatedBlue;
         font-size: 2vh;
+        font-weight: 400;
     }
 
 }
@@ -42,3 +41,28 @@
     }
 }
 
+.page1__left__user{
+    display: flex;
+    width: 33vw;
+    justify-content: space-between;
+    align-items: center;
+
+    input{
+        width: 35vh;
+        height: 3vh;
+        border-radius: 0.5rem;
+        border: 1px solid $LightGray;
+    }
+
+    .page1__left__user--button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $BrightBlue;
+        color: white;
+        height: 3vh;
+        width: 25vh;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+    }
+}

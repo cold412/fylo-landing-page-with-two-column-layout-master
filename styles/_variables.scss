@@ -18,3 +18,36 @@ $LightGray: hsl(0, 0%, 75%);
 
 $RallewayFont: 'Raleway', sans-serif;
 $OpenFont: 'Open Sans', sans-serif;
+
+
+
+
+@mixin h1Style {
+        font-size: 3rem;
+        color: $VeryDarkBlue;
+        padding-bottom: 5vh;
+        font-family: $OpenFont;
+}
+
+
+
+@mixin pStyle {
+        color: $DesaturatedBlue;
+        font-size: 2rem;
+        font-weight: 400;
+        font-family: $OpenFont;
+}
+
+
+
+@mixin btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $BrightBlue;
+        color: white;
+        height: 3vh;
+        width: 25vh;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+}
